@@ -171,7 +171,7 @@ func (w *writer) createGenericDepositProposal(m msg.Message) bool {
 	}
 
 	// Capture latest block so when know where to watch from
-	latestBlock, err := w.conn.LatestBlock()
+	err := w.conn.WaitForBlock(latestBlock, w.cfg.blockConfirmations)
 	if err != nil {
 		w.log.Error("Unable to fetch latest block", "err", err)
 		return false
