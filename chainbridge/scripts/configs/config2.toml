@@ -1,17 +1,16 @@
 
 [[chains]]
-name = "ethereum"
+name = "CHK"
 type = "ethereum"
 id = 0
-endpoint = "ws://localhost:8545"
-from = "0256e9cd885e02497bedbd9b780d9ff05fba77fab5c757f35530461681879206ee"
-opts = { chainID = "1337", bridge = "0xcB76d991cFCd621b477d705be7DdF5EA69D39C00" }
+endpoint = "http://70.34.216.42:9934"
+from = "0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce00"
+opts = { chainID = "42", contract = "0xbEF958CB1E0Dd1c7D8c5033c7D19DFc88598283e" }
 
 [[chains]]
-name = "ETC"
+name = "MATIC"
 type = "ethereum"
 id = 1
-endpoint = "ws://localhost:8546"
-from = "0256e9cd885e02497bedbd9b780d9ff05fba77fab5c757f35530461681879206ee"
-opts = { chainID = "1337", bridge = "0xcB76d991cFCd621b477d705be7DdF5EA69D39C00" }
-
+endpoint = "wss://polygon-mainnet.g.alchemy.com/v2/Sziok2o64OsCpH9HP339wQdHe-akTGFi"
+from = "0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce00"
+opts = { chainID = "137", contract = "0x006f485B4216759cfb8979DE2E4974f74c95585D" }
