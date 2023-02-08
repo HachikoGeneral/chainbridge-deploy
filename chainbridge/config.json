@@ -3,17 +3,14 @@
     {
       "name": "Chikochain",
       "type": "ethereum",
-      "id": "0",
+      "id": "2",
       "endpoint": "http://70.34.216.42:9934",
       "from": "0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7",
       "opts": {
-        "bridge": "0xbEF958CB1E0Dd1c7D8c5033c7D19DFc88598283e",
-        "erc20Handler": "0x66b5B3Bbff39231c423855AaD19e51f150F4e202",
-        "genericHandler": "0x66b5B3Bbff39231c423855AaD19e51f150F4e202",
-        "gasLimit": "1000000",
-        "maxGasPrice": "10000000000",
-        "startBlock": "0",
-        "http": "true"
+        "bridge": "0xecA9C910BC3ff8a1AEc7E92a9EE1f1b48FfCD0B0",
+        "erc20Handler": "0x59af4de05Ed9C2Ad729338B1fa3f89F1189ec1Eb",
+        "http": "true",
+        "startBlock": "0"
       }
     },
     {
@@ -25,10 +22,11 @@
       "opts": {
         "bridge": "0x006f485B4216759cfb8979DE2E4974f74c95585D",
         "erc20Handler": "0xaFfCFf9AA352E8f3960e2B9538164053F8C9E264",
-        "genericHandler": "0xaFfCFf9AA352E8f3960e2B9538164053F8C9E264",
-        "gasLimit": "4000000",
-        "maxGasPrice": "40000000000"
+        "http": "true",
+        "startBlock": "0"
       }
     }
-  ]
+  ],
+"keystorePath": "keystorePath",
+  "blockstorePath": "blockstorePath"
 }
